@@ -187,8 +187,8 @@
 
 /* V4: Root Direct full-width lead; remaining projects in two-column rows. */
 .job3-work .rootdirect-project { grid-column:1 / -1; }
-.job3-work .rootdirect-project .work-image { aspect-ratio:16 / 7; }
-.job3-work .rootdirect-project .rootdirect-placeholder { padding:5vw 6vw; }
+.job3-work .rootdirect-project .work-image { aspect-ratio:16 / 3.5; }
+.job3-work .rootdirect-project .rootdirect-placeholder { padding:3vw 6vw; }
 .job3-work .rootdirect-project .rootdirect-placeholder strong { font-size:clamp(42px,5.2vw,88px); }
 @media (max-width:767px){.job3-work .rootdirect-project{grid-column:auto}.job3-work .rootdirect-project .work-image{aspect-ratio:4/3}}
 /* Added legacy pages: same Job 3 detail treatment. */
