@@ -184,3 +184,23 @@
     font-size:34px;
   }
 }
+
+/* V4: Root Direct full-width lead; remaining projects in two-column rows. */
+.job3-work .rootdirect-project { grid-column:1 / -1; }
+.job3-work .rootdirect-project .work-image { aspect-ratio:16 / 7; }
+.job3-work .rootdirect-project .rootdirect-placeholder { padding:5vw 6vw; }
+.job3-work .rootdirect-project .rootdirect-placeholder strong { font-size:clamp(42px,5.2vw,88px); }
+@media (max-width:767px){.job3-work .rootdirect-project{grid-column:auto}.job3-work .rootdirect-project .work-image{aspect-ratio:4/3}}
+/* Added legacy pages: same Job 3 detail treatment. */
+.job3-project-page .page-content.pt-50 > .container{width:100%;padding-left:4.5vw;padding-right:4.5vw}
+.job3-project-page .project-details-wide{width:100%}
+.job3-project-page .project-details-wide h3{font-size:34px;line-height:1.15;margin:0 0 25px;font-weight:500}
+.job3-project-page .project-details-wide>p{max-width:900px;font-size:16px;line-height:1.75;color:#444;margin-bottom:35px}
+.job3-project-page .project-details-wide .row{margin-left:0;margin-right:0;margin-bottom:45px!important}
+.job3-project-page .project-details-wide .row>[class*=col-]{padding-left:0;padding-right:40px}
+.job3-project-page .project-details-wide h5{margin:0 0 6px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#888}
+.job3-project-page .project-details-wide .row p{font-size:13px;line-height:1.6;margin:0}
+.job3-project-page .project-gallery-wide .vertical-stack-gallery>li{width:100%;margin-bottom:40px}
+.job3-project-page .project-gallery-wide .vertical-stack-gallery>li img{width:100%;height:auto;display:block}
+.job3-project-page .project-gallery-wide iframe{max-width:100%}
+@media(max-width:767px){.job3-project-page .page-content.pt-50>.container{padding-left:22px;padding-right:22px}.job3-project-page .project-details-wide .row>[class*=col-]{padding-right:0;margin-bottom:20px}}
